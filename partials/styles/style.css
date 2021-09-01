@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+}
+
+.form{
+    background-color: #C7A8B2;
+    text-align: center;
+    padding: 5em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 2em;
+    font-weight: bold
+}
+
+.form-element{
+    padding-top:1em;
+}
+
+.form input{
+    width: 500px;
+    height: 40px;
+    font-size: 1em;
+}
+#getVideoInfoButton{
+    height: 3em;
+    width: 6em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    font-weight: bold  
+}
+#downloadButton,#downloadOptions{
+    height: 2em;
+    width: 8em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    font-weight: bold 
+}
+.thumbnail{
+    text-align: center;
+}
+.thumbnail img{
+    width: 800px;
+    border: 10px solid rgb(2, 45, 53);
+}
+
+.videoData h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(19, 6, 44);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.videoData p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(24, 9, 51);    
+    text-align: center;
+}
+.controls{
+    text-align: center;
+    margin: 5px;
+}
+.videoData{
+    background: #C7A8B2;
+}
+
+
+/* Media Queries */
+
+@media (max-width:1200px){
+    
+    .header{
+        font-size: 3em;
+    }
+    .form{
+        padding: 5em 0;
+    }
+    .thumbnail img{
+        width: 500px;
+        border: 10px solid rgb(2, 45, 53);
+    }
+    .videoData{
+        font-size: 10px;
+    }
+     
+}
+
+
+@media (max-width:991px){
+    .header{
+        font-size: 2em;
+    }
+    .form{
+        padding: 0;
+    }
+
+    .form input{
+        width: 300px;
+        height: 25px;
+        font-size: 20px;
+    }
+    .thumbnail img{
+        width: 300px;
+        border: 10px solid rgb(2, 45, 53);
+
+    }
+    .videoData{
+        font-size: 5px;
+    }
+}
