@@ -1,5 +1,4 @@
-const host = 'http://localhost:3000/';
-
+let host = `https://${window.location.hostname}/`;
 
 document.querySelector("#getVideoInfoButton").addEventListener("click", () => {
     let videoURL = document.querySelector("#videoURL").value.trim();
